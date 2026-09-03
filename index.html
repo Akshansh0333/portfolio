@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshansh — Business & Data Analytics</title>
+<meta name="description" content="Portfolio of Akshansh — Business and Data Analytics postgraduate specialising in AI, NLP, and business intelligence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+  <span></span><span></span><span></span>
+</button>
+
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <span class="mark">A</span>
+    <div class="mark-text">
+      <strong>Akshansh</strong>
+      <span>Data & Business Analyst</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+    <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+    <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+    <li><a href="#research" class="nav-link" data-section="research">Research</a></li>
+    <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+  </ul>
+  <div class="sidebar-bottom">
+    <a href="https://linkedin.com/in/akshansh03" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+    <a href="https://github.com/Akshansh0333" target="_blank" rel="noopener" aria-label="GitHub">gh</a>
+    <a href="mailto:akshansh.03.03@gmail.com" aria-label="Email">@</a>
+  </div>
+</nav>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="hero-top">
+      <div class="hero-text">
+        <p class="eyebrow">London, United Kingdom</p>
+        <h1>I turn messy data into decisions — <span class="accent">and models into products.</span></h1>
+        <p class="hero-lede">
+          Business &amp; Data Analytics postgraduate with a Computer Science Engineering background.
+          I build the pipeline, the model, and the dashboard — then explain what it means to the
+          people who have to act on it.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <img src="assets/headshot-optimized.jpg" alt="Portrait of Akshansh">
+      </div>
+    </div>
+
+    <div class="metrics" id="metrics">
+      <div class="metric">
+        <span class="metric-value" data-target="360" data-suffix="+">0</span>
+        <span class="metric-label">Legal cases processed into an NLP-ready corpus</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value" data-target="75" data-suffix="%">0</span>
+        <span class="metric-label">Macro-F1 on a tribunal-violation classifier</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value" data-target="600" data-prefix="$" data-suffix="K+">0</span>
+        <span class="metric-label">In business deals closed across roles</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value" data-target="85" data-suffix="%">0</span>
+        <span class="metric-label">Customer satisfaction score achieved, up from 65%</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-title"><span class="num">01</span> About</h2>
+    <div class="about-grid">
+      <p class="about-text">
+        I work at the intersection of data science, AI, and business strategy. My background spans
+        two worlds that don't usually sit in the same CV: building technical systems — CNNs for
+        medical imaging, NLP pipelines over legal documents, LSTM models for injury prediction —
+        and driving commercial outcomes through market analysis, KPI reporting, and client
+        negotiation. I'm currently studying MSc Business and Data Analytics at Ravensbourne
+        University London, while working as a Data &amp; NLP intern researching how London's
+        housing tribunals enforce landlord compliance.
+      </p>
+      <div class="about-cards">
+        <div class="info-card">
+          <h3>Education</h3>
+          <p>MSc Business &amp; Data Analytics<br><span class="dim">Ravensbourne University London, 2025–Present</span></p>
+          <p>BEng (Hons) Computer Science &amp; Engineering<br><span class="dim">Chandigarh University, 2021–2025 · CGPA 8.0/10.0</span></p>
+        </div>
+        <div class="info-card">
+          <h3>Focus areas</h3>
+          <p class="dim">AI &amp; Machine Learning · Business Intelligence · NLP · Predictive Analytics · Explainable AI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2 class="section-title"><span class="num">02</span> Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Mar 2026 — Present</span>
+          <h3>Dissertation Researcher → Data &amp; NLP Intern</h3>
+          <p class="role-org">RealGood (PropTech) · London, UK</p>
+          <p>Built an end-to-end pipeline scraping 360+ First-tier Tribunal housing decisions from
+            GOV.UK, applying spaCy NER and weak-supervision classification (macro-F1 0.75) to flag
+            licensing, disrepair, and eviction violations. Now shipping the findings as a Streamlit
+            dashboard with Folium risk maps, working directly with founders on product features for
+            landlords.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Mar 2026 — Jul 2026</span>
+          <h3>Business Development &amp; Business Analyst</h3>
+          <p class="role-org">Crescendo Digital · London, UK</p>
+          <p>Closed ~10 leads a month, secured the company's presence at Cannes 2026, and delivered
+            KPI dashboards and market analysis that shaped commercial strategy.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Nov 2025 — Present</span>
+          <h3>Guest Relations Assistant</h3>
+          <p class="role-org">DoubleTree by Hilton · London, UK</p>
+          <p>Lifted Customer Satisfaction Score from 65% to 85% through targeted service recovery
+            and systematic feedback analysis, while managing high-volume guest interactions.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Jun 2025 — Sep 2025</span>
+          <h3>Business Development Executive</h3>
+          <p class="role-org">Civic Minds Inc · Mohali, India</p>
+          <p>Secured four deals worth $150K+ each in a three-month tenure through targeted research
+            and client engagement, alongside CRM and lead-qualification work.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title"><span class="num">03</span> Projects</h2>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-card-inner">
+          <h3>Grad-CAM Respiratory Detection</h3>
+          <p>CNN pipeline localising pathological regions in chest radiographs across COVID-19,
+            asthma, and pulmonary disorders using class activation mapping.</p>
+          <div class="project-reveal">
+            <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Grad-CAM</span>
+            <a href="https://github.com/Akshansh0333" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-inner">
+          <h3>Smart Band Injury Prediction</h3>
+          <p>Wearable-sensor prototype applying LSTM time-series models to flag injury-predictive
+            biomechanical patterns and generate personalised risk scores.</p>
+          <div class="project-reveal">
+            <span class="tag">LSTM</span><span class="tag">Time-Series</span><span class="tag">Wearables</span>
+            <a href="https://github.com/Akshansh0333" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-inner">
+          <h3>Car Insurance BI Dashboard</h3>
+          <p>AWS and Databricks-backed Power BI dashboard surfacing car insurance trends and KPIs
+            for data-driven strategic decisions.</p>
+          <div class="project-reveal">
+            <span class="tag">AWS</span><span class="tag">Databricks</span><span class="tag">Power BI</span>
+            <a href="https://github.com/Akshansh0333" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-inner">
+          <h3>Electricity Billing Chatbot</h3>
+          <p>Deep-learning NLP conversational agent helping users navigate electricity bill
+            payments and usage queries.</p>
+          <div class="project-reveal">
+            <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">Deep Learning</span>
+            <a href="https://github.com/Akshansh0333" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-inner">
+          <h3>UniDrop Campus Delivery</h3>
+          <p>Prototyped a campus delivery platform in Figma and JavaScript, shaped by UX research
+            and direct stakeholder feedback.</p>
+          <div class="project-reveal">
+            <span class="tag">Figma</span><span class="tag">JavaScript</span><span class="tag">UX Research</span>
+            <a href="https://github.com/Akshansh0333" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="research" class="section">
+    <h2 class="section-title"><span class="num">04</span> Research &amp; Publications</h2>
+    <div class="research-card">
+      <h3>CNN Advancement: CLAHE, Grad-CAM and Expanded Architecture in Medical Imaging</h3>
+      <p class="role-org">Co-author · Chandigarh University · Accepted for Publication, 2025</p>
+      <p>A MobileNetV2-based CNN for COVID-19 radiography classification, using CLAHE preprocessing
+        to sharpen diagnostic contrast and Grad-CAM to make model decisions interpretable to
+        clinicians. Evaluated with ROC-AUC, precision-recall, and confusion matrices, with data
+        augmentation and early stopping to control overfitting.</p>
+      <div class="project-reveal" style="opacity:1; max-height:none; margin-top:1rem;">
+        <span class="tag">MobileNetV2</span><span class="tag">CLAHE</span><span class="tag">Explainable AI</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title"><span class="num">05</span> Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Programming</h3>
+        <div class="chip-row">
+          <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">C++</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Business Analytics</h3>
+        <div class="chip-row">
+          <span class="chip">Power BI</span><span class="chip">Excel</span><span class="chip">KPI Reporting</span><span class="chip">Data Visualisation</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Data Science</h3>
+        <div class="chip-row">
+          <span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Scikit-learn</span><span class="chip">TensorFlow</span><span class="chip">Keras</span><span class="chip">PyTorch</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>ML &amp; NLP</h3>
+        <div class="chip-row">
+          <span class="chip">CNN</span><span class="chip">LSTM</span><span class="chip">Grad-CAM</span><span class="chip">spaCy</span><span class="chip">XGBoost</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud &amp; Data</h3>
+        <div class="chip-row">
+          <span class="chip">AWS</span><span class="chip">Databricks</span><span class="chip">GCP</span><span class="chip">MongoDB</span><span class="chip">Kafka</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <div class="chip-row">
+          <span class="chip">GitHub</span><span class="chip">Jupyter</span><span class="chip">Colab</span><span class="chip">Streamlit</span><span class="chip">Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title"><span class="num">06</span> Contact</h2>
+    <p class="contact-lede">Open to analyst and strategy roles where AI and business intelligence meet real decisions.</p>
+    <div class="contact-links">
+      <a href="mailto:akshansh.03.03@gmail.com" class="contact-link">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">akshansh.03.03@gmail.com</span>
+      </a>
+      <a href="https://linkedin.com/in/akshansh03" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/akshansh03</span>
+      </a>
+      <a href="https://github.com/Akshansh0333" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/Akshansh0333</span>
+      </a>
+      <a href="tel:+447352686162" class="contact-link">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+44 7352 686162</span>
+      </a>
+    </div>
+    <footer>
+      <p>© 2026 Akshansh · Built with HTML, CSS &amp; JS · Hosted on GitHub Pages</p>
+    </footer>
+  </section>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
